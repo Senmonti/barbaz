@@ -27,6 +27,7 @@ class TestController {
         $this->author_name = $author_name;
     }
 
+    // выводит является ли имя подходящим для имени автора
     protected function isAuthor(string $author_name): bool
     {
         return $this->author_name === $author_name;

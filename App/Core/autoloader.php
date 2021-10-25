@@ -1,6 +1,6 @@
 <?php
 
-// partial autoload classes
+// загрузка классов PHP иначе use не будет работать
 
 spl_autoload_register(function ($class) {
     include str_replace(
